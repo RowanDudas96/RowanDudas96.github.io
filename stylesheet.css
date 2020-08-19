@@ -1598,6 +1598,11 @@ hr {
     padding-top: 10px;
   }
 
+  #project-thumb-hadoop {
+    width: 200px;
+    height: 100px;
+  }
+
   .scroll-top {
     width: 40px;
     height: 40px;
@@ -1629,12 +1634,6 @@ hr {
     color: #b3b3b3;
   }
 
-  /* underline for contact form */
-  hr {
-    border-color: white;
-    border-width: 2px;
-    padding-bottom: 10px;
-  }
   .scroll-top {
     width: 40px;
     height: 40px;
