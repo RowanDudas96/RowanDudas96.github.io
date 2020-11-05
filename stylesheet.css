@@ -107,7 +107,7 @@ a:hover {
 
 .hero-buttons i {
   color: white;
-  font-size: 40px;
+  font-size: 50px;
   letter-spacing: 4px;
 }
 
@@ -170,8 +170,8 @@ a:hover {
 .skills-img {
   margin-right: auto;
   margin-left: auto;
-  width: 60px;
-  height: 60px;
+  width: 70px;
+  height: 70px;
 }
 
 .bg-3 {
@@ -1489,7 +1489,7 @@ hr {
 
   .hero-buttons i {
     color: white;
-    font-size: 40px;
+    font-size: 50px;
     letter-spacing: 4px;
   }
 
@@ -1552,8 +1552,8 @@ hr {
   .skills-img {
     margin-right: auto;
     margin-left: auto;
-    width: 60px;
-    height: 60px;
+    width: 70px;
+    height: 70px;
   }
 
   .bg-3 {
