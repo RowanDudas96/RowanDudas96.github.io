@@ -4,7 +4,6 @@ body {
   margin: 0;
   padding: 0;
   min-height: 100% !important;
-  /* font-family: "Montserrat", "Helvetica", "Sans-Serif", "Roboto"; */
   font-family: "IBM Plex Sans", "Montserrat", "Sans-Serif";
 }
 
@@ -48,7 +47,7 @@ a:hover {
 /* hero image css */
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("images/hero5.jpg");
+    url("images/hero-abstract.jpg");
   height: 100%;
   width: auto;
   background-position: center;
@@ -225,6 +224,7 @@ a:hover {
   display: none;
   float: right;
 }
+
 .scroll-top i {
   display: inline-block;
   color: #ffffff;
@@ -253,6 +253,7 @@ hr {
   border-width: 2px;
   padding-bottom: 10px;
 }
+
 .scroll-top {
   width: 40px;
   height: 40px;
@@ -262,6 +263,7 @@ hr {
   display: none;
   float: right;
 }
+
 .scroll-top i {
   display: inline-block;
   color: #ffffff;
@@ -293,6 +295,7 @@ hr {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (min-width: 320px) and (max-width: 600px) {
+
   html,
   body {
     min-width: 100% !important;
@@ -342,7 +345,7 @@ hr {
   /* hero image css */
   .hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url("images/hero5.jpg");
+      url("images/hero-abstract.jpg");
     height: 100%;
     width: auto;
     background-position: center;
@@ -572,6 +575,7 @@ hr {
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
+
   html,
   body {
     min-width: 100% !important;
@@ -619,7 +623,7 @@ hr {
   /* hero image css */
   .hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url("images/hero5.jpg");
+      url("images/hero-abstract.jpg");
     height: 100%;
     width: auto;
     background-position: center;
@@ -846,6 +850,7 @@ hr {
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+
   html,
   body {
     min-width: 100% !important;
@@ -894,7 +899,7 @@ hr {
   /* hero image css */
   .hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url("images/hero5.jpg");
+      url("images/hero-abstract.jpg");
     height: 100%;
     width: auto;
     background-position: center;
@@ -1115,6 +1120,7 @@ hr {
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+
   html,
   body {
     min-width: 100% !important;
@@ -1160,7 +1166,7 @@ hr {
   /* hero image css */
   .hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url("images/hero5.jpg");
+      url("images/hero-abstract.jpg");
     height: 100%;
     width: auto;
     background-position: center;
@@ -1378,8 +1384,10 @@ hr {
     padding-bottom: 5px;
   }
 }
+
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+
   html,
   body {
     height: 100%;
@@ -1430,7 +1438,7 @@ hr {
   /* hero image css */
   .hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url("images/hero5.jpg");
+      url("images/hero-abstract.jpg");
     height: 100%;
     width: auto;
     background-position: center;
@@ -1612,6 +1620,7 @@ hr {
     display: none;
     float: right;
   }
+
   .scroll-top i {
     display: inline-block;
     color: #ffffff;
@@ -1643,6 +1652,7 @@ hr {
     display: none;
     float: right;
   }
+
   .scroll-top i {
     display: inline-block;
     color: #ffffff;
