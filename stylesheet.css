@@ -197,409 +197,409 @@ a:hover {
   .hero-buttons i:hover {
     color: #b3b3b3;
   }
+}
 
-  /* Small devices (portrait tablets and large phones, 600px and up) */
-  @media only screen and (min-width: 600px) {
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
 
-    html,
-    body {
-      min-width: 100% !important;
-      margin: 0;
-      padding: 0;
-      min-height: 100% !important;
-      /* font-family: "Montserrat", "Helvetica", "Sans-Serif", "Roboto"; */
-      font-family: "IBM Plex Sans", "Montserrat", "Sans-Serif";
-    }
-
-    p {
-      font-size: 9pt;
-      font-weight: 400;
-    }
-
-    ul {
-      display: inline;
-    }
-
-    ul li {
-      display: inline;
-    }
-
-    a {
-      color: inherit;
-    }
-
-    a:hover {
-      color: #b3b3b3;
-    }
-
-    /* hero image css */
-    .hero-image {
-      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url("images/hero-abstract.jpg");
-      height: 100%;
-      width: auto;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      position: relative;
-      opacity: 0.9;
-    }
-
-    .hero-text {
-      text-align: center;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      color: white;
-    }
-
-    /* hero text css */
-
-    .hero-text #hero-name {
-      font-size: 40pt;
-      white-space: nowrap;
-      font-weight: 200;
-      letter-spacing: 0.1em;
-    }
-
-    .hero-text #hero-current-position {
-      font-size: 30pt;
-      white-space: nowrap;
-      padding-top: 15px;
-      font-weight: 200;
-      /* letter-spacing: 0.05em; */
-    }
-
-    .hero-text #hero-current-location {
-      font-size: 20pt;
-      padding-top: 20px;
-      white-space: nowrap;
-      font-weight: 200;
-    }
-
-    .hero-text #arrows {
-      margin-top: 25px;
-      font-size: 40px;
-    }
-
-    /* hero buttons css (linkedin and github) */
-    .hero-buttons-container {
-      float: right;
-      padding-right: 1em;
-      padding-top: 1em;
-    }
-
-    .hero-buttons i {
-      color: white;
-      font-size: 20px;
-      letter-spacing: 4px;
-    }
-
-    .hero-buttons i:hover {
-      color: #b3b3b3;
-    }
+  html,
+  body {
+    min-width: 100% !important;
+    margin: 0;
+    padding: 0;
+    min-height: 100% !important;
+    /* font-family: "Montserrat", "Helvetica", "Sans-Serif", "Roboto"; */
+    font-family: "IBM Plex Sans", "Montserrat", "Sans-Serif";
   }
 
-  /* Medium devices (landscape tablets, 768px and up) */
-  @media only screen and (min-width: 768px) {
-
-    html,
-    body {
-      min-width: 100% !important;
-      margin: 0;
-      padding: 0;
-      min-height: 100% !important;
-      /* font-family: "Montserrat", "Helvetica", "Sans-Serif", "Roboto"; */
-      font-family: "IBM Plex Sans", "Montserrat", "Sans-Serif";
-    }
-
-    p {
-      font-size: 10pt;
-      font-weight: 400;
-    }
-
-    ul {
-      display: inline;
-    }
-
-    ul li {
-      display: inline;
-    }
-
-    a {
-      color: inherit;
-    }
-
-    a:hover {
-      color: #b3b3b3;
-    }
-
-    /* hero image css */
-    .hero-image {
-      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url("images/hero-abstract.jpg");
-      height: 100%;
-      width: auto;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      position: relative;
-      opacity: 0.9;
-    }
-
-    .hero-text {
-      text-align: center;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      color: white;
-    }
-
-    /* hero text css */
-
-    .hero-text #hero-name {
-      font-size: 40pt;
-      white-space: nowrap;
-    }
-
-    .hero-text #hero-current-position {
-      font-size: 20pt;
-      padding-top: 10px;
-      white-space: nowrap;
-    }
-
-    .hero-text #hero-current-location {
-      font-size: 15pt;
-      padding-top: 10px;
-      white-space: nowrap;
-    }
-
-    .hero-text #arrows {
-      margin-top: 25px;
-      font-size: 40px;
-    }
-
-    /* hero buttons css (linkedin and github) */
-    .hero-buttons-container {
-      float: right;
-      padding-right: 1em;
-      padding-top: 1em;
-    }
-
-    .hero-buttons i {
-      color: white;
-      font-size: 30px;
-      letter-spacing: 4px;
-    }
-
-    .hero-buttons i:hover {
-      color: #b3b3b3;
-    }
+  p {
+    font-size: 9pt;
+    font-weight: 400;
   }
 
-  /* Large devices (laptops/desktops, 992px and up) */
-  @media only screen and (min-width: 992px) {
-
-    html,
-    body {
-      min-width: 100% !important;
-      margin: 0;
-      padding: 0;
-      min-height: 100% !important;
-      /* font-family: "Montserrat", "Helvetica", "Sans-Serif", "Roboto"; */
-      font-family: "IBM Plex Sans", "Montserrat", "Sans-Serif";
-    }
-
-    p {
-      font-size: 12pt;
-      font-weight: 400;
-    }
-
-    ul {
-      display: inline;
-    }
-
-    ul li {
-      display: inline;
-    }
-
-    a {
-      color: inherit;
-    }
-
-    a:hover {
-      color: #b3b3b3;
-    }
-
-    /* hero image css */
-    .hero-image {
-      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url("images/hero-abstract.jpg");
-      height: 100%;
-      width: auto;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      position: relative;
-      opacity: 0.9;
-    }
-
-    .hero-text {
-      text-align: center;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      color: white;
-    }
-
-    /* hero text css */
-
-    .hero-text #hero-name {
-      font-size: 50pt;
-      white-space: nowrap;
-    }
-
-    .hero-text #hero-current-position {
-      font-size: 40pt;
-      white-space: nowrap;
-    }
-
-    .hero-text #hero-current-location {
-      font-size: 25pt;
-      padding-top: 20px;
-      white-space: nowrap;
-    }
-
-    .hero-text #arrows {
-      margin-top: 25px;
-      font-size: 40px;
-    }
-
-    /* hero buttons css (linkedin and github) */
-    .hero-buttons-container {
-      float: right;
-      padding-right: 1em;
-      padding-top: 1em;
-    }
-
-    .hero-buttons i {
-      color: white;
-      font-size: 30px;
-      letter-spacing: 4px;
-    }
-
-    .hero-buttons i:hover {
-      color: #b3b3b3;
-    }
+  ul {
+    display: inline;
   }
 
-  /* Extra large devices (large laptops and desktops, 1200px and up) */
-  @media only screen and (min-width: 1200px) {
+  ul li {
+    display: inline;
+  }
 
-    html,
-    body {
-      height: 100%;
-      margin: 0;
-      padding: 0;
-      min-height: 100% !important;
-      /* font-family: "Montserrat", "Helvetica", "Sans-Serif", "Roboto"; */
-      font-family: "IBM Plex Sans", "Montserrat", "Sans-Serif";
-    }
+  a {
+    color: inherit;
+  }
 
-    p {
-      font-size: 14pt;
-      font-weight: 400;
-      /* font-family: "Open Sans"; */
-    }
+  a:hover {
+    color: #b3b3b3;
+  }
 
-    ul {
-      display: inline;
-    }
+  /* hero image css */
+  .hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("images/hero-abstract.jpg");
+    height: 100%;
+    width: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    opacity: 0.9;
+  }
 
-    ul li {
-      display: inline;
-      font-size: 12pt;
-    }
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
 
-    a {
-      color: inherit;
-    }
+  /* hero text css */
 
-    a:hover {
-      color: #b3b3b3;
-    }
+  .hero-text #hero-name {
+    font-size: 40pt;
+    white-space: nowrap;
+    font-weight: 200;
+    letter-spacing: 0.1em;
+  }
 
-    /* hero image css */
-    .hero-image {
-      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url("images/hero-abstract.jpg");
-      height: 100%;
-      width: auto;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      position: relative;
-      opacity: 0.9;
-    }
+  .hero-text #hero-current-position {
+    font-size: 30pt;
+    white-space: nowrap;
+    padding-top: 15px;
+    font-weight: 200;
+    /* letter-spacing: 0.05em; */
+  }
 
-    .hero-text {
-      text-align: center;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      color: white;
-    }
+  .hero-text #hero-current-location {
+    font-size: 20pt;
+    padding-top: 20px;
+    white-space: nowrap;
+    font-weight: 200;
+  }
 
-    /* hero text css */
+  .hero-text #arrows {
+    margin-top: 25px;
+    font-size: 40px;
+  }
 
-    .hero-text #hero-name {
-      font-size: 80pt;
-      white-space: nowrap;
-      /* font-style: italic; */
-      font-weight: 200;
-      letter-spacing: 0.1em;
-    }
+  /* hero buttons css (linkedin and github) */
+  .hero-buttons-container {
+    float: right;
+    padding-right: 1em;
+    padding-top: 1em;
+  }
 
-    .hero-text #hero-current-position {
-      font-size: 50pt;
-      white-space: nowrap;
-      font-weight: 200;
-      /* letter-spacing: 0.05em; */
-      padding-top: 30px;
-    }
+  .hero-buttons i {
+    color: white;
+    font-size: 20px;
+    letter-spacing: 4px;
+  }
 
-    .hero-text #hero-current-location {
-      font-size: 30pt;
-      padding-top: 50px;
-      white-space: nowrap;
-      font-weight: 300;
-      letter-spacing: 0.1em;
-    }
+  .hero-buttons i:hover {
+    color: #b3b3b3;
+  }
+}
 
-    .hero-text #arrows {
-      margin-top: 100px;
-      font-size: 60px;
-    }
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
 
-    /* hero buttons css (linkedin and github) */
-    .hero-buttons-container {
-      float: right;
-      padding-right: 2em;
-      padding-top: 2em;
-    }
+  html,
+  body {
+    min-width: 100% !important;
+    margin: 0;
+    padding: 0;
+    min-height: 100% !important;
+    /* font-family: "Montserrat", "Helvetica", "Sans-Serif", "Roboto"; */
+    font-family: "IBM Plex Sans", "Montserrat", "Sans-Serif";
+  }
 
-    .hero-buttons i {
-      color: white;
-      font-size: 50px;
-      letter-spacing: 4px;
-    }
+  p {
+    font-size: 10pt;
+    font-weight: 400;
+  }
 
-    .hero-buttons i:hover {
-      color: #b3b3b3;
-    }
+  ul {
+    display: inline;
+  }
+
+  ul li {
+    display: inline;
+  }
+
+  a {
+    color: inherit;
+  }
+
+  a:hover {
+    color: #b3b3b3;
+  }
+
+  /* hero image css */
+  .hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("images/hero-abstract.jpg");
+    height: 100%;
+    width: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    opacity: 0.9;
+  }
+
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+  /* hero text css */
+
+  .hero-text #hero-name {
+    font-size: 40pt;
+    white-space: nowrap;
+  }
+
+  .hero-text #hero-current-position {
+    font-size: 20pt;
+    padding-top: 10px;
+    white-space: nowrap;
+  }
+
+  .hero-text #hero-current-location {
+    font-size: 15pt;
+    padding-top: 10px;
+    white-space: nowrap;
+  }
+
+  .hero-text #arrows {
+    margin-top: 25px;
+    font-size: 40px;
+  }
+
+  /* hero buttons css (linkedin and github) */
+  .hero-buttons-container {
+    float: right;
+    padding-right: 1em;
+    padding-top: 1em;
+  }
+
+  .hero-buttons i {
+    color: white;
+    font-size: 30px;
+    letter-spacing: 4px;
+  }
+
+  .hero-buttons i:hover {
+    color: #b3b3b3;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+  html,
+  body {
+    min-width: 100% !important;
+    margin: 0;
+    padding: 0;
+    min-height: 100% !important;
+    /* font-family: "Montserrat", "Helvetica", "Sans-Serif", "Roboto"; */
+    font-family: "IBM Plex Sans", "Montserrat", "Sans-Serif";
+  }
+
+  p {
+    font-size: 12pt;
+    font-weight: 400;
+  }
+
+  ul {
+    display: inline;
+  }
+
+  ul li {
+    display: inline;
+  }
+
+  a {
+    color: inherit;
+  }
+
+  a:hover {
+    color: #b3b3b3;
+  }
+
+  /* hero image css */
+  .hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("images/hero-abstract.jpg");
+    height: 100%;
+    width: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    opacity: 0.9;
+  }
+
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+  /* hero text css */
+
+  .hero-text #hero-name {
+    font-size: 50pt;
+    white-space: nowrap;
+  }
+
+  .hero-text #hero-current-position {
+    font-size: 40pt;
+    white-space: nowrap;
+  }
+
+  .hero-text #hero-current-location {
+    font-size: 25pt;
+    padding-top: 20px;
+    white-space: nowrap;
+  }
+
+  .hero-text #arrows {
+    margin-top: 25px;
+    font-size: 40px;
+  }
+
+  /* hero buttons css (linkedin and github) */
+  .hero-buttons-container {
+    float: right;
+    padding-right: 1em;
+    padding-top: 1em;
+  }
+
+  .hero-buttons i {
+    color: white;
+    font-size: 30px;
+    letter-spacing: 4px;
+  }
+
+  .hero-buttons i:hover {
+    color: #b3b3b3;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+  html,
+  body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    min-height: 100% !important;
+    /* font-family: "Montserrat", "Helvetica", "Sans-Serif", "Roboto"; */
+    font-family: "IBM Plex Sans", "Montserrat", "Sans-Serif";
+  }
+
+  p {
+    font-size: 14pt;
+    font-weight: 400;
+    /* font-family: "Open Sans"; */
+  }
+
+  ul {
+    display: inline;
+  }
+
+  ul li {
+    display: inline;
+    font-size: 12pt;
+  }
+
+  a {
+    color: inherit;
+  }
+
+  a:hover {
+    color: #b3b3b3;
+  }
+
+  /* hero image css */
+  .hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("images/hero-abstract.jpg");
+    height: 100%;
+    width: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    opacity: 0.9;
+  }
+
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+  /* hero text css */
+
+  .hero-text #hero-name {
+    font-size: 80pt;
+    white-space: nowrap;
+    /* font-style: italic; */
+    font-weight: 200;
+    letter-spacing: 0.1em;
+  }
+
+  .hero-text #hero-current-position {
+    font-size: 50pt;
+    white-space: nowrap;
+    font-weight: 200;
+    /* letter-spacing: 0.05em; */
+    padding-top: 30px;
+  }
+
+  .hero-text #hero-current-location {
+    font-size: 30pt;
+    padding-top: 50px;
+    white-space: nowrap;
+    font-weight: 300;
+    letter-spacing: 0.1em;
+  }
+
+  .hero-text #arrows {
+    margin-top: 100px;
+    font-size: 60px;
+  }
+
+  /* hero buttons css (linkedin and github) */
+  .hero-buttons-container {
+    float: right;
+    padding-right: 2em;
+    padding-top: 2em;
+  }
+
+  .hero-buttons i {
+    color: white;
+    font-size: 50px;
+    letter-spacing: 4px;
+  }
+
+  .hero-buttons i:hover {
+    color: #b3b3b3;
   }
 }
