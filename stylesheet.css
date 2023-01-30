@@ -176,22 +176,11 @@ a:hover {
     font-weight: 300;
   }
 
-  .hero-text #arrows {
-    margin-top: 50px;
-    font-size: 30px;
-  }
-
-  /* hero buttons css (linkedin and github) */
-  .hero-buttons-container {
-    float: right;
-    padding-right: 1em;
-    padding-top: 1em;
-  }
-
   .hero-buttons i {
     color: white;
-    font-size: 20px;
+    font-size: 14pt;
     letter-spacing: 4px;
+    padding-top: 10px;
   }
 
   .hero-buttons i:hover {
@@ -269,7 +258,6 @@ a:hover {
     white-space: nowrap;
     padding-top: 15px;
     font-weight: 200;
-    /* letter-spacing: 0.05em; */
   }
 
   .hero-text #hero-current-location {
@@ -279,22 +267,11 @@ a:hover {
     font-weight: 200;
   }
 
-  .hero-text #arrows {
-    margin-top: 25px;
-    font-size: 40px;
-  }
-
-  /* hero buttons css (linkedin and github) */
-  .hero-buttons-container {
-    float: right;
-    padding-right: 1em;
-    padding-top: 1em;
-  }
-
   .hero-buttons i {
     color: white;
-    font-size: 20px;
+    font-size: 20pt;
     letter-spacing: 4px;
+    padding-top: 15px;
   }
 
   .hero-buttons i:hover {
@@ -377,22 +354,11 @@ a:hover {
     white-space: nowrap;
   }
 
-  .hero-text #arrows {
-    margin-top: 25px;
-    font-size: 40px;
-  }
-
-  /* hero buttons css (linkedin and github) */
-  .hero-buttons-container {
-    float: right;
-    padding-right: 1em;
-    padding-top: 1em;
-  }
-
   .hero-buttons i {
     color: white;
-    font-size: 30px;
+    font-size: 20pt;
     letter-spacing: 4px;
+    padding-top: 15px;
   }
 
   .hero-buttons i:hover {
@@ -474,22 +440,11 @@ a:hover {
     white-space: nowrap;
   }
 
-  .hero-text #arrows {
-    margin-top: 25px;
-    font-size: 40px;
-  }
-
-  /* hero buttons css (linkedin and github) */
-  .hero-buttons-container {
-    float: right;
-    padding-right: 1em;
-    padding-top: 1em;
-  }
-
   .hero-buttons i {
     color: white;
-    font-size: 30px;
+    font-size: 40px;
     letter-spacing: 4px;
+    padding-top: 20px;
   }
 
   .hero-buttons i:hover {
@@ -506,14 +461,12 @@ a:hover {
     margin: 0;
     padding: 0;
     min-height: 100% !important;
-    /* font-family: "Montserrat", "Helvetica", "Sans-Serif", "Roboto"; */
     font-family: "IBM Plex Sans", "Montserrat", "Sans-Serif";
   }
 
   p {
     font-size: 14pt;
     font-weight: 400;
-    /* font-family: "Open Sans"; */
   }
 
   ul {
@@ -560,7 +513,6 @@ a:hover {
   .hero-text #hero-name {
     font-size: 80pt;
     white-space: nowrap;
-    /* font-style: italic; */
     font-weight: 200;
     letter-spacing: 0.1em;
   }
@@ -569,28 +521,15 @@ a:hover {
     font-size: 50pt;
     white-space: nowrap;
     font-weight: 200;
-    /* letter-spacing: 0.05em; */
     padding-top: 30px;
   }
 
   .hero-text #hero-current-location {
-    font-size: 30pt;
-    padding-top: 50px;
+    font-size: 40pt;
+    padding-top: 30px;
     white-space: nowrap;
-    font-weight: 300;
+    font-weight: 200;
     letter-spacing: 0.1em;
-  }
-
-  .hero-text #arrows {
-    margin-top: 100px;
-    font-size: 60px;
-  }
-
-  /* hero buttons css (linkedin and github) */
-  .hero-buttons-container {
-    float: right;
-    padding-right: 2em;
-    padding-top: 2em;
   }
 
   .hero-buttons i {
